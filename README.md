@@ -1,12 +1,5 @@
-[![CircleCI](https://circleci.com/gh/google/seq2seq.svg?style=svg)](https://circleci.com/gh/google/seq2seq)
-
----
-
-**[READ THE DOCUMENTATION](https://google.github.io/seq2seq)**
-
-**[CONTRIBUTING](https://google.github.io/seq2seq/contributing/)**
-
----
+Forked code.
+Modified the seq2seq code. Added beam search. Takes an input width w. And samples output uses beam-search of width w.
 
 A general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
 
@@ -14,9 +7,7 @@ A general-purpose encoder-decoder framework for Tensorflow that can be used for 
 
 ---
 
-The official code used for the [Massive Exploration of Neural Machine Translation Architectures](https://arxiv.org/abs/1703.03906) paper.
-
-If you use this code for academic purposes, please cite it as:
+Reference
 
 ```
 @ARTICLE{Britz:2017,
